@@ -1,0 +1,13 @@
+# Clone repo
+git clone https://github.com/your-username/weather-api-demo.git
+
+# Move into repo
+cd weather-api-demo
+
+# Add your Python file
+echo "print('Hello API')" > app.py
+
+# Commit and push
+git add .
+git commit -m "Initial commit"
+git push origin main
